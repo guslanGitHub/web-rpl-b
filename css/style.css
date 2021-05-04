@@ -1,0 +1,21 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* bagian header */
+div {
+  border: 1px solid red;
+}
+.logo img {
+  width: 60px;
+  float: left;
+}
+.title-logo {
+  font-size: 28px;
+  margin-top: 15px;
+}
+.clear {
+  clear: both;
+}
