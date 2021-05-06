@@ -5,9 +5,43 @@
 }
 
 /* bagian header */
-div {
-  border: 1px solid red;
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 15px 0;
 }
+
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+.menu-link ul li {
+  float: left;
+  list-style: none;
+}
+
+.logo {
+  float: left;
+  width: 40%;
+}
+.menu-link {
+  float: right;
+  margin-top: 15px;
+}
+.menu-link ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700px;
+  padding: 0 15px;
+}
+
+.menu-link ul li a:hover {
+  color: rgb(54, 54, 53);
+}
+
 .logo img {
   width: 60px;
   float: left;
@@ -16,6 +50,38 @@ div {
   font-size: 28px;
   margin-top: 15px;
 }
+
+.jumbotron {
+  height: 700px;
+  background-image: url("https://awsimages.detik.net.id/community/media/visual/2019/05/28/6dfad122-a69d-44f6-8b3e-c9d51c0417c5_169.jpeg?w=700&q=90");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.title-jumbotron {
+  font-size: 50px;
+  color: white;
+  padding-top: 250px;
+}
+.paragraf {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: salmon;
+  letter-spacing: 3px;
+}
+.tombol {
+  padding: 10px 20px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500px;
+  margin-top: 20px;
+}
+
 .clear {
   clear: both;
 }
+
